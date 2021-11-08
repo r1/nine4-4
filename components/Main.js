@@ -58,42 +58,42 @@ export default function Main() {
             >
               <div className="items-center justify-center hidden lg:inline-block">
                 <img
-                  src="https://r1.github.io/coding-test31/images/segment.png"
+                  src="https://nine4-4.vercel.app/images/segment.png"
                   alt="Segment"
                   className="block object-contain h-24"
                 />
               </div>
               <div className="items-center justify-center hidden lg:inline-block">
                 <img
-                  src="https://r1.github.io/coding-test31/images/segment.png"
+                  src="https://nine4-4.vercel.app/images/segment.png"
                   alt="Segment"
                   className="block object-contain h-24"
                 />
               </div>
               <div className="flex items-center justify-center">
                 <img
-                  src="https://r1.github.io/coding-test31/images/segment.png"
+                  src="https://nine4-4.vercel.app/images/segment.png"
                   alt="Segment"
                   className="block object-contain h-24"
                 />
               </div>
               <div className="flex items-center justify-center">
                 <img
-                  src="https://r1.github.io/coding-test31/images/segment.png"
+                  src="https://nine4-4.vercel.app/images/segment.png"
                   alt="Segment"
                   className="block object-contain h-24"
                 />
               </div>
               <div className="items-center justify-center hidden lg:inline-block">
                 <img
-                  src="https://r1.github.io/coding-test31/images/segment.png"
+                  src="https://nine4-4.vercel.app/images/segment.png"
                   alt="Segment"
                   className="block object-contain h-24"
                 />
               </div>
               <div className="items-center justify-center hidden lg:inline-block">
                 <img
-                  src="https://r1.github.io/coding-test31/images/segment.png"
+                  src="https://nine4-4.vercel.app/images/segment.png"
                   alt="Segment"
                   className="block object-contain h-24"
                 />
