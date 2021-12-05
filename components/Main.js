@@ -241,8 +241,8 @@ export default function Main() {
                 alt="img"
               />
             </div>
-            <div className="md:flex-grow md:w-1/2 lg:pl-24 xl:pl-16 pt-24 flex flex-col md:items-start text-left">
-              <h2 className="leading-tight md:text-4xl text-3xl mb-4 text-black font-bold">
+            <div className="md:flex-grow lg:w-1/2 lg:pl-24 md:pl-16 pt-0 lg:pt-24 flex flex-col md:items-start text-left">
+              <h2 className="leading-tight md:text-5xl lg:text-4xl mb-4 text-black font-bold">
                 Eu diam in magna blandit sit magna dolor proin velit.
               </h2>
               <p className="mb-8 leading-relaxed font-semibold text-black">

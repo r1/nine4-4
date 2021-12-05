@@ -24,7 +24,7 @@ export default function Header() {
       </div>
       <div className="flex items-center justify-between mt-6 md:px-6 py-4 mb-16 sm:mb-20 -mx-4 px-4 sm:mx-0 sm:px-0 Grotesk">
         <div className="inline-block">
-          <div className="inline-block pb-3 pl-3 lg:pl-0">
+          <div className="inline-block pb-3 pl-6">
             <a href="/" className="text-white font-bold text-3xl">
               NINE4
             </a>
