@@ -3,25 +3,11 @@
 export default function Footer() {
   return (
     <>
-      <footer className="text-gray-600 Grotesk">
-        <div className="max-w-8xl px-5 py-24 mx-auto text-white">
-          <div className="lg:w-3/6 md:w-1/2 mb-32 md:pr-16 lg:pr-6 pr-0">
-            <h2 className="max-w-2xl md:text-5xl text-white leading-tight font-bold">
-              Tristique tempus tincidunt.
-            </h2>
-            <p className="max-w-2xl text-xl mt-6 text-gray-300">
-              Lorem ipsum accumsan arcu, consectetur adipiscing elit.
-            </p>
-            <input
-              type="text"
-              className="mt-10 h-12 px-6 pr-24 placeholder-gray-500 text-gray-800 font-semibold"
-              placeholder="Enter your email address"
-            />
-            <button className="bg-blue h-12 px-5 mb-24">Get a demo</button>
-          </div>
-          <div className="flex flex-wrap text-left order-first">
-            <div className="lg:w-1/5 md:w-2/4 w-full px-4">
-              <h2 className="tracking-widest text-lg mb-3">Est.</h2>
+      <footer className="grotesk bg-[#f9fbfb]">
+        <div className="max-w-8xl mx-auto px-5 py-24 text-black">
+          <div className="order-first flex flex-wrap text-left">
+            <div className="w-full px-4 md:w-2/4 lg:w-1/5">
+              <h2 className="mb-3 text-lg tracking-widest">Est.</h2>
               <nav className="list-none space-y-2 py-3">
                 <li>
                   <a href="/">Vitae nec.</a>
@@ -43,9 +29,9 @@ export default function Footer() {
                 </li>
               </nav>
             </div>
-            <div className="lg:w-1/5 md:w-2/4 w-full px-4">
-              <h2 className="tracking-widest text-lg mb-3">Et.</h2>
-              <nav className="list-none space-y-2 mb-10 py-3">
+            <div className="w-full px-4 md:w-2/4 lg:w-1/5">
+              <h2 className="mb-3 text-lg tracking-widest">Et.</h2>
+              <nav className="mb-10 list-none space-y-2 py-3">
                 <li>
                   <a href="/">Ninc elementum.</a>
                 </li>
@@ -66,9 +52,9 @@ export default function Footer() {
                 </li>
               </nav>
             </div>
-            <div className="lg:w-1/5 md:w-2/4 w-full px-4">
-              <h2 className="tracking-widest text-lg mb-3">Placerat.</h2>
-              <nav className="list-none space-y-2 mb-10 py-3">
+            <div className="w-full px-4 md:w-2/4 lg:w-1/5">
+              <h2 className="mb-3 text-lg tracking-widest">Placerat.</h2>
+              <nav className="mb-10 list-none space-y-2 py-3">
                 <li>
                   <a href="/">Et cursus fringilla.</a>
                 </li>
@@ -83,9 +69,9 @@ export default function Footer() {
                 </li>
               </nav>
             </div>
-            <div className="lg:w-1/5 md:w-2/4 w-full px-4">
-              <h2 className="tracking-widest text-lg mb-3">Messa.</h2>
-              <nav className="list-none space-y-2 mb-10 py-3">
+            <div className="w-full px-4 md:w-2/4 lg:w-1/5">
+              <h2 className="mb-3 text-lg tracking-widest">Messa.</h2>
+              <nav className="mb-10 list-none space-y-2 py-3">
                 <li>
                   <a href="/">Id.</a>
                 </li>
@@ -100,9 +86,9 @@ export default function Footer() {
                 </li>
               </nav>
             </div>
-            <div className="lg:w-1/5 md:w-2/4 w-full">
+            <div className="w-full md:w-2/4 lg:w-1/5">
               <a href="/">
-                <div className="relative border border-gray-700 hover:border-gray-300 transition">
+                <div className="relative border border-black transition hover:border-gray-500">
                   <div className="absolute top-0 right-0 pt-2 pr-2">
                     <svg
                       width="8"
@@ -113,11 +99,11 @@ export default function Footer() {
                     >
                       <path
                         d="M6.66992 0.747559L0.669922 6.74756"
-                        stroke="white"
+                        stroke="black"
                       />
                       <path
                         d="M0.669922 0.747559H6.66992V6.74756"
-                        stroke="white"
+                        stroke="black"
                       />
                     </svg>
                   </div>
@@ -131,17 +117,17 @@ export default function Footer() {
           </div>
         </div>
         <div className="px-2">
-          <div className="mx-auto max-w-8xl px-5 py-6">
-            <h2 className="text-white">Diam egestas ultrices odio vitae.</h2>
+          <div className="max-w-8xl mx-auto px-5 py-6">
+            <h2 className="text-black">Diam egestas ultrices odio vitae.</h2>
             <div>
-              <h2 className="text-sm my-4">
+              <h2 className="my-4 text-sm">
                 Lorem ipsum accumsan arcu, consectetur adipiscing elit. Dolor
                 proin tempor sed fermentum sit{" "}
                 <br className="hidden lg:inline-block" /> pretium pellentesque.
                 Dictumst risus elementum dignissim risus, lobortis molestie.
               </h2>
             </div>
-            <div className="-mt-24 absolute right-0 text-white hidden lg:inline-block">
+            <div className="absolute right-0 -mt-24 hidden text-black lg:inline-block">
               <a href="/" className="mr-16">
                 Terms & Conditions
               </a>
@@ -152,7 +138,7 @@ export default function Footer() {
                 Cookie Policy
               </a>
             </div>
-            <div className="inline-block pt-12 pb-6 pr-20 absolute right-0 text-sm text-white md:hidden">
+            <div className="right-0 inline-block pt-12 pb-6 pr-20 text-sm text-black md:hidden">
               <a href="/" className="mr-16">
                 Terms & Conditions
               </a>
